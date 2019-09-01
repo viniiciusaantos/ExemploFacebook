@@ -1,0 +1,130 @@
+body {
+    margin: 0%;
+    background-image:url(../img/background.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+    background-color: #385898;
+    color: white;
+}
+
+header div {
+    padding: 1% 10%;
+}
+
+#logo {
+    float: left;
+    font: inherit;
+    font-size: 24px;
+    margin: 10px 0px 0px 0px;
+    padding: 0%;
+}
+
+#logo h1 {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#login {
+    float: right;
+    padding: 0%;
+    margin: 0%;
+}
+
+#login th, td {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px
+}
+
+#login a {
+    text-decoration: none;
+    color: #819ed8;
+}
+
+#botaoEntrar {
+    background-color: #385898;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+    font-weight: bold;
+}
+
+main {
+    padding: 1% 5%;
+}
+
+#facebookInfo {
+    float: left;
+    padding: 0 0 0 100px;
+    width: 40%;
+    color: darkslateblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#abrirConta {
+    float: right;
+    width: 40%;
+}
+
+#abrirConta h3 {
+    color: black;
+    font-size: 32px;
+    margin: 0%;
+}
+
+#abrirConta h6 {
+    color: black;
+    font-size: 20px;
+    margin: 0%;
+}
+
+#abrirConta form {
+    margin-top: 1em;
+}
+
+#abrirConta label, p, h4 {
+    color: rgb(87, 87, 87);
+}
+
+#abrirConta input {
+    border-radius: 5px;
+    border-style: ridge;
+    border-width: 1px;
+    padding: 2px;
+    margin: 2px;
+    font-size: 20px;
+}
+
+.cadastroNome {
+    width: 200px;
+}
+
+.cadastroInfo {
+    width: 415px;
+}
+
+#mensagemCadastro {
+    font-size: 10px;
+}
+
+#mensagemCadastro a {
+    text-decoration: none;
+    color: #385898;
+}
+
+#mensagemCadastro input {
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    border-style: outset;
+    border-color: darkgreen;
+}
